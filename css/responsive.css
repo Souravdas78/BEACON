@@ -1,0 +1,103 @@
+@media (max-width: 991px) {
+
+  .logo-cutout-wrapper,
+  .logo-cutout-bg,
+  .logo-cutout-img {
+    height: auto;
+    width: 130px !important;
+    max-width: 100% !important;
+    position: static !important;
+    left: unset !important;
+    right: unset !important;
+    top: unset !important;
+    z-index: unset !important;
+    transform: none !important;
+  }
+}
+
+
+
+
+@media (max-width: 991px) {
+  h1 {
+    font-size: 45px;
+
+  }
+
+  p {
+    font-size: 14px;
+
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .property-section p {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .head-btn {
+    display: block !important;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    float: none;
+  }
+
+}
+
+@media (max-width: 767.5px) {
+  h1 {
+    font-size: 35px;
+
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  
+  h3 {
+    font-size: 24px;
+  }
+
+  .custom-prev,
+  .custom-next {
+    width: 48px;
+    height: 48px;
+    font-size: 1.5rem;
+    top: 90%;
+    transform: translateY(-50%);
+    box-shadow: 0 4px 16px 0 rgba(160, 91, 183, 0.10);
+  }
+
+  .custom-prev {
+    left: 10px;
+  }
+
+  .custom-next {
+    right: 10px;
+  }
+
+}
+
+@media (max-width: 360px) {
+
+  /* banner */
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+
+
+}
