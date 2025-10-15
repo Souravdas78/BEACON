@@ -454,3 +454,6 @@ footer .mx-2 .d-flex li a :hover {
     
     transform: translate(0, -5px);
 }
+footer .mt-4 small a {
+    color: #AA6AAA !important;
+}

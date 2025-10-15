@@ -16,14 +16,6 @@ window.addEventListener("resize", handleNavbarScroll);
 
 // nav hide when click 
 
-let navBar = document.querySelectorAll(".nav-link");
-let navCollapse = document.querySelector(".navbar-collapse.collapse");
-navBar.forEach(function (a) {
-  a.addEventListener("click", function () {
-    navCollapse.classList.remove("show");
-  });
-});
-
 document.addEventListener("DOMContentLoaded", function() {
   var swiper = new Swiper(".testimonialSwiper", {
     loop: true,
@@ -32,6 +24,10 @@ document.addEventListener("DOMContentLoaded", function() {
       disableOnInteraction: false,
     },
     effect: "fade",
+    fadeEffect: {
+      crossFade: true, // ensures proper fade transition between slides
+    },
+    speed: 800,
     navigation: {
       nextEl: ".custom-next",
       prevEl: ".custom-prev",
